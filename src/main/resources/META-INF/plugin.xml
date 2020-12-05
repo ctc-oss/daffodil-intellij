@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>org.apache.daffodil-intellij</id>
+    <name>Daffodil for IntelliJ IDEA</name>
+    <vendor email="wassj@ctc.com" url="https://github.com/ctc-oss/daffodil-intellij">https://github.com/ctc-oss/daffodil-intellij</vendor>
+
+    <description><![CDATA[
+    An IntelliJ IDEA plugin for Daffodil...<br>
+    ]]></description>
+
+    <depends>org.intellij.scala</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
