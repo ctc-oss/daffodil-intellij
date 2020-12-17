@@ -7,16 +7,11 @@
     An IntelliJ IDEA plugin for Daffodil...<br>
     ]]></description>
 
-    <depends>org.intellij.scala</depends>
-    <depends>com.intellij.modules.java</depends>
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <fileType implementationClass="org.apache.daffodil.intellij.language.DfdlFileType"
+                  name="DFDL" language="DFDL" extensions="dfdl"/>
     </extensions>
-
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
 </idea-plugin>
