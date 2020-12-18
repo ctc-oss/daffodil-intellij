@@ -12,6 +12,10 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <fileType implementationClass="org.apache.daffodil.intellij.language.DfdlFileType"
-                  name="DFDL" language="DFDL" extensions="dfdl"/>
+                  name="DFDL" language="dfdl" extensions="dfdl"/>
+
+        <lang.syntaxHighlighterFactory language="dfdl"
+                                       implementationClass="org.apache.daffodil.intellij.highlight.DfdlSyntaxHighlighterFactory"/>
+
     </extensions>
 </idea-plugin>
